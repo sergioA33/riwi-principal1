@@ -1,0 +1,42 @@
+proyecto: rueda libre 
+
+en el mini reto 1:
+prepare las carpetas para enmepzar a desarrollar 
+la actividad,donde hice un arcivo principal de la pagina,abri el sitio 
+con live server y revise como cargaba en el navegador,el codigo 200 significa 
+que cargo bien y el codigo 404 que no se encontro la pagina, entendi que html 
+sirve para darle el orden al contenido y css es la que da el estilo.
+
+mini reto2:
+en el mini reto 2 organice la pagina del inicio con titulos,
+subtitulos,texto,imagenes y listas.agrege los servicios que fueron los 
+beneficios y como adquirir una bicicleta. tambien agregre un link para vr la ubicacion 
+y escribir al correo 
+
+mini reto 3:
+en el mini reto 3 hice los archivos para las rutas, los precios,
+con las indicaciones que pedia el cliente.le di estilo a las tablas con css 
+para que se viera mejor distribuido, fue un estilo sencillo pero que le aporta al siti web 
+
+mini reto 4:
+en el mini reto 4 realice los horario, que incluye y que llevar para hacer un recorrido guiado
+tambien agregre un correo donde se puede hacer la reservacion,
+con este proyecto aprendi a crear una pagina web, organizar su contenido, agregar imagenes y enlaces
+mostrar precios en tablas y guardar el proyecto con git y github.
+
+mini reto 5:organice la pagina del inicio con header nav main section
+y footer mantuve el contenido de las imagenes y los enlaces tambien se mantuvieron
+en inicio organice los servicios en articulos en tarifas organice las tablas y en reservas organice el
+contacto y los horarios. 
+
+mini reto 6: agregue un formulario con tres grupos, tus datos de alquiler y confirmacion
+inclui campos para datos personales, la fecha, el tipo de bicicleta, el plan, la cantidad de personas 
+y el tipo de recorrido y los comentarios.
+
+mini reto 7: agregue validaciones para pedir los datos obligatrios y revisar el numero de documento y tambien verificar el numero 
+tambien imprementar que se limite la cantidad de bicicletas
+
+mini reto 8: resive los titulos las iamgenes en los enlaces y la navegacion con el teclado organice los colores 
+en css utilizando el naranja, verde, azul crema y gris para mejorar el diseño de la pagina
+
+mini reto 9:
