@@ -1,0 +1,163 @@
+
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="inscripcion gratuita a parche dev 2026">
+    <title>inscripcion - parche dev 2026</title>
+</head>
+<body>
+    <a href="contenido">saltar al contenido</a>
+
+    <header>
+        <a href="index.html">parche dev 2026</a>
+        <nav>
+            <ul>
+                <li><a href="index.html">inicio</a></li>
+                <li><a href="agenda.html">agenda</a></li>
+                <li><a href="ponentes.html">ponentes</a></li>
+                <li><a href="inscripcion.html" aria-current="page">inscripcion</a></li>
+                <li><a href="conducta.html">codigo de conducta</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="contenido">
+
+        <h1>inscripcion</h1>
+
+        <p>la entrada es gratuita y los cupos son limitados. completa el formulario para reservar el tuyo.</p>
+        <p>los campos marcados con * son obligatorios.</p>
+
+        <form action="gracias.html" method="get">
+
+            <fieldset>
+                <legend>tus datos</legend>
+
+                <label for="nombre">nombre completo *</label>
+                <input type="text" id="nombre" name="nombre" required>
+                <br><br>
+
+                <label for="correo">correo electronico *</label>
+                <input type="email" id="correo" name="correo">
+                <br><br>
+
+                <label for="celular">celular (10 digitos, empieza por 3) *</label>
+                <input type="tel" id="celular" name="celular" pattern="3[0-9]{9}" maxlength="10">
+                <br><br>
+
+                <label for="ciudad">ciudad *</label>
+                <select id="ciudad" name="ciudad" required>
+                    <option value="">selecciona tu ciudad</option>
+                    <option value="medellin">medellin</option>
+                    <option value="bello">bello</option>
+                    <option value="itagui">itagui</option>
+                    <option value="envigado">envigado</option>
+                    <option value="sabaneta">sabaneta</option>
+                    <option value="la estrella">la estrella</option>
+                    <option value="caldas">caldas</option>
+                    <option value="copacabana">copacabana</option>
+                    <option value="girardota">girardota</option>
+                    <option value="barbosa">barbosa</option>
+                    <option value="otra">otra</option>
+                </select>
+            </fieldset>
+
+            <br>
+
+            <fieldset>
+                <legend>en que momento estas?</legend>
+
+                <input type="radio" id="empezando" name="nivel" value="empezando" required>
+                <label for="empezando">estoy empezando a programar</label>
+                <br>
+
+                <input type="radio" id="aprendiendo" name="nivel" value="aprendiendo">
+                <label for="aprendiendo">ya programo, pero no trabajo en tecnologia</label>
+                <br>
+
+                <input type="radio" id="trabajo" name="nivel" value="trabajo">
+                <label for="trabajo">trabajo en tecnologia</label>
+            </fieldset>
+
+            <br>
+
+            <fieldset>
+                <legend>que temas te interesan?</legend>
+
+                <input type="checkbox" id="web" name="temas" value="desarrollo web">
+                <label for="web">desarrollo web</label>
+                <br>
+
+                <input type="checkbox" id="datos" name="temas" value="datos y sql">
+                <label for="datos">datos y sql</label>
+                <br>
+
+                <input type="checkbox" id="accesibilidad" name="temas" value="accesibilidad">
+                <label for="accesibilidad">accesibilidad</label>
+                <br>
+
+                <input type="checkbox" id="python" name="temas" value="python">
+                <label for="python">python</label>
+                <br>
+
+                <input type="checkbox" id="nube" name="temas" value="despliegue en la nube">
+                <label for="nube">despliegue en la nube</label>
+            </fieldset>
+
+            <br>
+
+            <fieldset>
+                <legend>agenda</legend>
+
+                <input type="checkbox" id="taller" name="taller" value="tu primer bot con python">
+                <label for="taller">quiero inscribirme al taller "tu primer bot con python" (30 cupos, trae tu computador)</label>
+                <br><br>
+
+                <label for="camiseta">talla de camiseta</label>
+                <select id="camiseta" name="camiseta">
+                    <option value="">selecciona una talla</option>
+                    <option value="xs">xs</option>
+                    <option value="s">s</option>
+                    <option value="m">m</option>
+                    <option value="l">l</option>
+                    <option value="xl">xl</option>
+                    <option value="xxl">xxl</option>
+                </select>
+            </fieldset>
+
+            <br>
+
+            <label for="aprendizaje">que esperas aprender en parche dev? (maximo 300 caracteres)</label>
+            <br>
+            <textarea id="aprendizaje" name="aprendizaje" maxlength="300" rows="4" cols="40"></textarea>
+
+            <br><br>
+
+            <input type="checkbox" id="conducta" name="conducta" required>
+            <label for="conducta">acepto el <a href="conducta.html">codigo de conducta</a> del evento *</label>
+
+            <br><br>
+
+            <button type="submit">reservar mi cupo</button>
+
+        </form>
+
+    </main>
+
+    <footer>
+        <address>
+            ¿tienes preguntas? escribenos a
+            <a href="mailto:hola@parchedev.example">hola@parchedev.example</a>
+        </address>
+
+        <p>parche dev 2026 - medellin, colombia</p>
+        <p>este es un evento ficticio creado para un reto de formacion</p>
+    </footer>
+
+</body>
+</html>
+
+
